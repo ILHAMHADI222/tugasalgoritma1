@@ -14,7 +14,7 @@ public class project {
     public static int getPassanger(ArrayList<int[]>Buskota){
         int totalpenumpang= 0;
         for ( int i= 0; i<Buskota.size(); i++){
-            totalpenumpang+= Buskota.get(i)[0]-Buskota.get(1)[0];
+            totalpenumpang+= Buskota.get(i)[0]-Buskota.get(i)[1];
 
 
         }
